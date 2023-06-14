@@ -1,0 +1,121 @@
+21 When implementing linear regression of some dependent variable 𝑦 on the set of independent variables 𝐱 = (𝑥₁, …, 𝑥ᵣ), where 𝑟 is the number of predictors, which of the following statements will be true?
+a)	𝛽₀, 𝛽₁, …, 𝛽ᵣ are the regression coefficients.
+b)	Linear regression is about determining the best predicted weights by using the method of ordinary least squares.
+c)	E is the random interval
+d)	Both and b
+
+ans-  d)Both a and b
+
+22 )
+What indicates that you have a perfect fit in linear regression?
+a)	The value 𝑅² < 1, which corresponds to SSR = 0
+b)	The value 𝑅² = 0, which corresponds to SSR = 1
+c)	The value 𝑅² > 0, which corresponds to SSR = 1
+d)	The value 𝑅² = 1, which corresponds to SSR = 0
+
+ans - d) The value 𝑅² = 1, which corresponds to SSR = 0
+
+
+23)
+In simple linear regression, the value of what shows the point where the estimated regression line crosses the 𝑦 axis?
+a)	Y
+b)	B0
+c)	B1
+d)	F
+
+ans –d) F
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+24)
+Check out these four linear regression plots:
+ 
+ 
+
+
+Which one represents an underfitted model?
+
+
+a)	The bottom-left plot
+b)	The top-right plot
+c)	The bottom-right plot
+d)	The top-left plot
+
+Ans d) The top-left plot
+
+
+
+25)
+There are five basic steps when you’re implementing linear regression:
+
+•	a. Check the results of model fitting to know whether the model is satisfactory.
+•	b. Provide data to work with, and eventually do appropriate transformations.
+•	c. Apply the model for predictions.
+•	d. Import the packages and classes that you need.
+•	e. Create a regression model and fit it with existing data.
+
+However, those steps are currently listed in the wrong order. What’s the correct order?
+ 
+
+a)	e, c, a, b, d
+b)	e, d, b, a, c
+c)	d, e, c, b, a
+d)	d, b, e, a, c
+
+ans d) d, b, e, a, c
+
+26 ) Which of the following are optional parameters to LinearRegression in scikit-learn?
+a)	Fit
+b)	fit_intercept
+c)	normalize
+d)	copy_X
+e)	n_jobs
+f)	reshape
+
+ans – copy_X and reshape
+
+
+27)	While working with scikit-learn, in which type of regression do you need to transform the array of inputs to include nonlinear terms such as 𝑥²?
+a)	Multiple linear regression
+b)	Simple linear regression
+c)	Polynomial regression
+Ans c- Polynomial regression
+
+
+28)	You should choose statsmodels over scikit-learn when:
+A)You want graphical representations of your data.
+b)	You’re working with nonlinear terms.
+c)	You need more detailed results.
+d)	You need to include optional parameters.
+
+Ans d) You need to include optional parameters.
+
+29)	 	is a fundamental package for scientific computing with Python. It offers comprehensive mathematical functions, random number generators, linear algebra routines, Fourier transforms, and more. It provides a high-level syntax that makes it accessible and productive.
+a)	Pandas
+b)	Numpy
+c)	Statsmodel
+d)	scipy
+
+ans d) scipy
+
+30 )	is a Python data visualization library based on Matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics that allow you to explore and understand your data. It integrates closely with pandas data structures.
+
+a) Bokeh
+b) Seaborn
+c) Matplotlib
+d) Dash
+
+
+ans b)seaborn 
+
